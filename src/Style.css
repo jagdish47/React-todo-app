@@ -1,0 +1,102 @@
+.main-div {
+    height: 100vh;
+    width: 100vw;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.center-div {
+    height: 600px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.center-div h1 {
+    background-color: rgb(165, 82, 165);
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.center-div input {
+    border: none;
+    border-bottom: 3px solid rgb(165, 82, 165);
+    height: 40px;
+    width: 250px;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+
+.center-div input:focus {
+   outline: none;
+}
+
+.center-div button {
+    background-color: rgb(165, 82, 165);
+    height: 50px;
+    width: 50px;
+    border-radius: 50px; 
+    position: relative;
+    bottom: 50px;
+    left: 130px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+button:hover {
+    background-color: green;
+    border: none;
+}
+
+.center-div ol li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(144, 128, 144);
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 2px solid red;
+    list-style: none;
+
+    background-color:rgb(165, 82, 165) ;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+ol {
+
+    width: 70%;
+    margin-right: 40px;
+}
+
+.fa-times {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(165, 82, 165) ;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px ;
+    border-radius: 50px ;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    right: 50px;
+}
+
+.fa-times:hover{
+    background-color: red;
+}
